@@ -23,9 +23,16 @@ div.links{
   width: 150px;
   margin: auto;
   background-color:red;
+  display:inline-block;
+  margin-left:50px;
 }
 
 iframe.yt{
   align:right;
   margin-left: 20px;
+}
+
+h1{
+  font-size: 35pt;
+  line-height: 40px;
 }
