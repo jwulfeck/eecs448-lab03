@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Jakob Wulf-Eck</title>
+    <link href="cssManipulation.css"
+      rel="stylesheet"
+      type="text/css"/>
+      <script type="text/javascript"
+          src="cssManipulation.js">
+          </script>
+  </head>
+
+  <body id = "body">
+    <p class = "border" id= "someText">
+      Jakob Wulf-Eck is a junior studying Computer Science at the University of Kansas. He is currently a software development intern at Iris by Lowe's in Lawrence, KS.</p>
+    <p id = "info">
+      Use 0-255 RGB values for the color options and pixels for the border width.
+    <form>
+      <input type="text" id="borderRed" placeholder = "Border Red Value"><br>
+      <input type="text" id="borderGreen" placeholder = "Border Green Value"><br>
+      <input type="text" id="borderBlue" placeholder = "Border Blue Value"><br>
+      <input type="text" id="widthVal" placeholder = "Border Width"><br>
+
+      <input type="text" id="bgRed" placeholder = "BG Red Value"><br>
+      <input type="text" id="bgGreen" placeholder = "BG Green Value"><br>
+      <input type="text" id="bgBlue" placeholder = "BG Blue Value"><br>
+
+      <input type="button" id = "changeCss" value="Change CSS" onclick="changeStuff()">
+    </form>
+  </body>
+</html>

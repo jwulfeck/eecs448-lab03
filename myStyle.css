@@ -1,0 +1,25 @@
+body{
+  background-image: url(bg.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+p{
+  color: white;
+  font-family: monospace;
+  font-size:15pt;
+}
+a{
+  color:red;
+}
+a.hover{
+  color:blue;
+}
+img{
+  background-color:white;
+}
+
+iframe.yt{
+  align:right;
+  margin-left: 20px;
+}
